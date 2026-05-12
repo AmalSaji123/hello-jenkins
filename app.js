@@ -9,6 +9,10 @@ app.get('/hii', (req, res) => {
   res.send('Hello from Jenkins CI/CD! 11');
 });
 
+app.get('/hiuuui', (req, res) => {
+  res.send('Hello from Jenkins CI/CD! 11');
+});
+
 app.get('/hello', (req, res) => {
   res.send('Hello from Jenkins CI/CD!');
 });

@@ -13,6 +13,10 @@ app.get('/hii', (req, res) => {
   res.send('Hello from Jenkins CI/CD!');
 });
 
+app.get('/hi', (req, res) => {
+  res.send('Hello from Jenkins CI/CD!');
+});
+
 module.exports = app;
 
 if (require.main === module) {

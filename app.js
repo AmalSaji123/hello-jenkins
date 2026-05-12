@@ -4,6 +4,9 @@ const app = express();
 app.get('/', (req, res) => {
   res.send('Hello from Jenkins CI/CD! ');
 });
+app.get('/hello', (req, res) => {
+  res.send('Hello from Jenkins CI/CD! ');
+});
 
 
 
